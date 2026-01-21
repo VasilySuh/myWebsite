@@ -1,69 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suhofruktov in IT</title>
 </head>
+
 <body>
     <header>
-    <img src="Hog&Hook" alt="Hog&Hook">
-    <a href="#portfolio">Моё портфолио</a>  <a href="#feedback">Отзывы</a> <a href="#workWithMe">Сотрудничество</a> <a href="#myContacts">Контакты</a>
+        <img src="./images/hogMinimal.png" alt="Hog&Hook" width="70">
+        <nav>
+            <a href="#portfolio">Моё портфолио</a> <a href="#feedback">Отзывы</a> <a
+                href="#workWithMe">Сотрудничество</a>
+            <a href="#myContacts">Контакты</a>
+        </nav>
     </header>
-    <h1>Hello World или...</h1>
-    <h3>Вы действительно хотите посмотреть в pdf-ку моего резюме?</h3>
-    <img src="./images/myFace.jpeg" alt="Тут моя рожа" width="256">
-    <p><pre>
+    <main>
+        <section>
+            <header>
+                <h1><b>Hello World или...</b></h1>
+            </header>
+
+            <h3>Вы действительно хотите посмотреть в pdf-ку моего резюме?</h3>
+            <img src="./images/myFace.jpeg" alt="Тут моя рожа" width="256">
+            <p>
+            <pre>
         <s>Я ищущий себя в этой жизни человек.</s>
         <b><em>*Информация изменена*</em> </b>
         Я начинающий веб-разработчик без КОМЕРЧЧЕСКОГО опыта и ПРОФИЛЬНОГО образования. 
         Просто ужас одним словом! Или нет?
         Сейчас я занят тем, что прописываю этот сайт-визитку. Как только я закончу с ним перейду на следующий pet-проект. 
         Мне нравится разработка в целом и поэтому я решил развиваться в этой сфере.
-        <a href="bio.html">Если стало интересно почитать более подробно про меня</a>
+        <nav>
+            <a href="bio.html">Если стало интересно почитать более подробно про меня</a>
+        </nav>
     </pre>
-    </p>
-    <br>
-    
-     <h3 id="portfolio">Милости прошу к моему портфолио</h3>
-     <img src="./images/cookieProject.png" alt="Тут скрин сайта с печеньками" width="512"><br>
-     <a href="https://vasilysuh.github.io/cookies/">Сайт с печеньками</a>
-     <p>Данный сайт писался в качестве учебного проекта. Итоги и технологии:</p>
-     <ul>
-        <li>Появился скромный опыт работы с Figma</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Косвенно затронут Angular</li>
-     </ul>
-     <p><pre>
+            </p>
+            <br>
+        </section>
+
+        <section id="portfolio">
+            <header>
+                <h2>Милости прошу к моему портфолио</h2>
+            </header>
+            <img src="./images/cookieProject.png" alt="Тут скрин сайта с печеньками" width="512"><br>
+            <a href="https://vasilysuh.github.io/cookies/">Сайт с печеньками</a>
+            <p>Данный сайт писался в качестве учебного проекта. Итоги и технологии:</p>
+            <ul>
+                <li>Появился скромный опыт работы с Figma</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Косвенно затронут Angular</li>
+            </ul>
+            <p>
+            <pre>
     На данный момент на сайте не реализована адаптивность, 
-    есть баг с конвертацией цены при применении фильтра "Все/Без сахара"</pre></p>
-    <h3 id="feedback">Отзывы</h3>
-    <p>Не удивляйся, пока портфолио пустое, очевидно что и отзывов нет</p>
-    <br>
-    <h3 id="workWithMe">Посотрудничаем?)</h3>
-    <form id="workForMe">Заполни форму: <br>
-        <label for="task">Задача:</label>
-        <textarea id="task" 
-        type="text" 
-        required 
-        placeholder="Вот сюда напишите, что вам необходимо."
-        spellcheck="true"></textarea><br>
-        <label for="userSocial">Мессенджер или соц.сеть:</label>
-        <input id="userSocial" type="url" required placeholder="Вот сюда ссылку на соц.сеть для связи."><br>
-        <label for="userEmail">E-mail:</label>
-        <input id="userEmail" type="email" required placeholder="Вот сюда ваш e-mail для связи."><br>
-        <button type="submit">Отправить</button>
-    </form>
-    <br>
-    <h3 id='myContacts'>Мои контакты:</h3>
-    <p>
-        <pre>
+    есть баг с конвертацией цены при применении фильтра "Все/Без сахара"</pre>
+            </p>
+            <br>
+        </section>
+
+        <section id="feedback">
+            <header>
+                <h2>Отзывы</h2>
+            </header>
+            <p>Не удивляйся, пока портфолио пустое, очевидно что и отзывов нет</p>
+            <br>
+        </section>
+
+        <section id="workWithMe">
+            <header>
+                <h2>Посотрудничаем?)</h2>
+            </header>
+            <form id="workForMe">Заполни форму: <br>
+                <label for="task">Задача:</label>
+                <textarea id="task" type="text" required placeholder="Вот сюда напишите, что вам необходимо."
+                    spellcheck="true"></textarea><br>
+                <label for="userSocial">Мессенджер или соц.сеть:</label>
+                <input id="userSocial" type="url" required placeholder="Вот сюда ссылку на соц.сеть для связи."><br>
+                <label for="userEmail">E-mail:</label>
+                <input id="userEmail" type="email" required placeholder="Вот сюда ваш e-mail для связи."><br>
+                <button type="submit">Отправить</button>
+            </form>
+            <br>
+        </section>
+
+        <section id="myContacts">
+            <header>
+                <h2>Мои контакты:</h2>
+            </header>
+            <p>
+            <pre>
         Tg: <a href="https://t.me/Suhofrukt_v" target="_blank">Написать в Телеграм</a>
         Vk: <a href="https://vk.com/suhorukov_vas" target="_blank">Написать во Вконтакте</a>
         E-mail: <a href="mailTo:vsuhorukov.vas@yandex.com">vsuhorukov.vas@yandex.com</a>
     </p>
-    
+    <br>
+        </section>
+
+    </main>
+    <footer>
+        <p><pre> 
+            А что тут сказать ещё... Тут должна бять такая... Классная, важная и интересная юридическая информация. copyright Йа 2026
+        </pre>
+            </p>
+            </footer>
+
 </body>
+
 </html>
